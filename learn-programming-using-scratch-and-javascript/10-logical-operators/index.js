@@ -57,7 +57,7 @@ console.log(isEligibleForJob2("BE", 5));
 function isEligibleForJob3(degree, yearsOfExperience, age) {
   let hasRequiredDegree = (degree == "DME" || degree == "ITI");
   let hasRequiredExperience = yearsOfExperience >= 2;
-  let withinAgeLimit = age <= 30
+  let withinAgeLimit = age <= 30;
   return hasRequiredDegree && hasRequiredExperience && withinAgeLimit;
 }
 

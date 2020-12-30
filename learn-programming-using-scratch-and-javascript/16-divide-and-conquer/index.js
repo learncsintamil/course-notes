@@ -62,8 +62,8 @@ function fancyNumbers() {
   for(let i = 0; i < possibleNumbers.length; i++) {
     if (recursiveSumOfDigits(possibleNumbers[i]) == 1 &&
           isValuesInIncreasingOrder(digits(possibleNumbers[i]))) {
-            validNumbers.push(possibleNumbers[i]);
-          }
+      validNumbers.push(possibleNumbers[i]);
+    }
   }
   return validNumbers;
 }
